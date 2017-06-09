@@ -1,0 +1,10 @@
+JOHAN
+- pag de comidas (los platos y falcultades)
+- pag de informacion acerca de la pagina
+- pag para cada comida
+
+
+LUIS
+- pag de comedores cercanos con mapa
+- pag de inicio sesion
+- pag de perfeil de comedores
