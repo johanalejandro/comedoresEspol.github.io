@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=News+Cycle');
 
-*{
-    font-family:'News Cycle' !important;
-    font-weight: bolder !important;
-}
 
 body, html{
     width: 100%;
@@ -24,7 +20,7 @@ nav.sidebar, .main{
 }
 
 .main{
-    padding: 10px 10px 0px 10px;
+    padding: 0px 0px 0px 0px;
 }
 
 section{
@@ -33,6 +29,7 @@ section{
 
 @media (min-width: 1300px){
     .main{
+
         width: calc(100% - 200px);
         margin-left: 200px;
     }
@@ -60,10 +57,52 @@ section{
         font-family: ;
     }
 
-    #titulo{
+    #titulo-name{
         margin-left: 5%;
+        text-align: center;
+        color: #004d99;
+        margin-bottom: 20%;
     }
 
+    #encabezado {
+        background-color: black;
+        text-align: center;
+        color: white;
+        width: 100%;
+        margin-top: 0%;
+        height: 30%;
+    }
+
+    #encabezado h1 {
+         margin-top: 0%;
+
+    }
+
+    #filtro-search {
+        display: inline-block;
+        width: 55%; 
+
+    }
+
+    #buscar {
+        width:15%;
+        margin:0%;
+        display: inline-block;
+
+    }
+
+    #filtro-search {
+        margin-top: 10px;
+        display: inline-block;
+
+    }
+
+    #filtro-search : first-child {
+        float:left;
+    }
+    
+
+    }
 }
 
 
