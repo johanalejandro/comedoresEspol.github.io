@@ -1,0 +1,21 @@
+#cont-bares{
+	margin: 10px;
+	height: 60%;
+
+}
+
+#list-comed{
+	height: 100%;
+    overflow-y: scroll;
+    padding: 5px;
+}
+
+#pos-comed{
+	height: 100%;
+}
+
+.comedor-tk  a p{
+	margin: 0px;
+	font-weight: bold;
+}
+
