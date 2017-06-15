@@ -122,8 +122,9 @@ section{
 
     }
 
-    .facultad-detalle a{
-        text-align: center;
+     .facultad-detalle a{
+        margin-left: 85px;
+        padding-top:  10px;
 
     }
 
