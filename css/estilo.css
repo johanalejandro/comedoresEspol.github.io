@@ -101,8 +101,47 @@ section{
     #filtro-search : first-child {
         float:left;
     }
+
+    #facultad-comedores {
+        width:900px;
+
+    }
+
+    .facultad-detalle {
+        width: 270px;
+        height: 270px;
+        padding-top: 30px;
+        border-style: solid;
+        border-radius: 20px;
+        display: inline-block;
+        margin-left: 25px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        border-color: #d60651;
     
 
+    }
+
+    .facultad-detalle a{
+        text-align: center;
+
+    }
+
+    .imagen-facultad {
+        width: 200px;
+        height: 60px;
+        margin-left: 15px;
+
+    }
+
+    .facultad-detalle p {
+        padding-left: 40px;
+
+    }
+
+    .facultad-detalle h4 {
+        color: #004d99;
+        text-align: center;
     }
 }
 
