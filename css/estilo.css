@@ -191,10 +191,30 @@ h3#tit-2{
         font-family: 'Josefin Slab', serif;
         font-size: 1.5em;
     }
-    
 
 
 }
+
+/* css para grafico */
+
+
+ .bar {
+            fill: #d60651;
+        }
+        
+        .axis {
+            font-size: 13px;
+        }
+        
+        .axis path,
+        .axis line {
+            fill: none;
+            display: none;
+        }
+        
+        .label {
+            font-size: 13px;
+        }
 
 
 
