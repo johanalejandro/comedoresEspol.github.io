@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=News+Cycle');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 
 body, html{
@@ -66,8 +67,11 @@ h3#tit-comd-cerc{
     #titulo-name{
         margin-left: 5%;
         text-align: center;
-        color: #004d99;
+        font-family: 'Pacifico';
+        font-size: 1.4em;
+        color: rgb(214, 7, 82);
         margin-bottom: 20%;
+        padding-top: 10px
     }
 
     #encabezado {

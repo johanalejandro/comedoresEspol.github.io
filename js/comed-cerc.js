@@ -4,7 +4,7 @@ var miPosicion;
 
 function iniciarMapa() {
 	//coordernadas iniciales
-	let coord=new google.maps.LatLng(-2.1473363,-79.9655131);
+	let coord = new google.maps.LatLng(-2.1473363,-79.9655131);
 	//propiedades del mapa
 	var mapProp= {
 	    center:coord,
