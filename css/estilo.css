@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=News+Cycle');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:600i');
+
 
 
 body, html{
@@ -153,6 +155,28 @@ h3#tit-comd-cerc{
         color: #004d99;
         text-align: center;
     }
+
+    /*  Estilos usados para web de about.html */
+
+    #about-us img{
+        margin-left: 450px;
+        margin-top: 40px;
+        
+
+
+    }
+
+    #descripcion-site p {
+        width: 520px;
+        margin-left: 330px;
+        text-align: center;
+        margin-top: 30px;
+        font-family: 'Josefin Slab', serif;
+        font-size: 1.5em;
+    }
+    
+
+
 }
 
 
