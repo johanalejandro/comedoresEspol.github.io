@@ -1,18 +1,58 @@
-<!Doctype html>
 <html>
 	<head>
 		<meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Comedores - Espol</title>
+		<title>Side Bar - base</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/estilo.css" rel="stylesheet">
 		<link href="js/bootstrap.js" rel="javascript">
 		<link href="js/bootstrap.min.js" rel="javascript">
-   			
 	</head>
 	<body>
-	   
+		<!-- SIDE BAR BASE -->
+		<nav class="navbar navbar-default sidebar">
+			<div id="franja"></div>
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<div id="food-logo" >
+						<a href="index.html"><img src="img/logo-v.png" alt="logo" width="90%" /></a>
+					</div>
+					
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1" >
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="#">Comedores</a></li>
+						<li><a href="#">Menu del dia</a></li>
+						<li><a href="#">Mejores Platos</a></li>
+						<li><a href="#">Mejores Comedores</a></li>
+						<li><a href="#">Comedores Cercanos</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="main">
+			<div id="encabezado">
+				<h1> Conoce tus opciones </h1>
+				<h3> COMEDORES DE LA ESPOL </h3>
+				
+			</div>
+			<div id="filtro-search">
+				<p id="buscar"><span class="glyphicon glyphicon-search" ></span> Buscar por: </p>  
+				<button type="button" class="btn busqueda"> Comedor </button>
+				<button type="button" class="btn busqueda">Ubicacion</button>
+				<button type="button" class="btn busqueda"> Rating </button>
+				<button type="button" class="btn busqueda">Valor nutricional </button>  
+				
+
+			</div>
+		</div>
 	</body>
 </html>
