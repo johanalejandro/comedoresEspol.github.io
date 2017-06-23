@@ -42,6 +42,8 @@ h3#tit-2{
     font-weight: bold;
 }
 
+
+
 @media (min-width: 1300px){
     .main{
 
@@ -90,6 +92,7 @@ h3#tit-2{
         text-align: right;
         width: 100%;
         background: url("../img/header.jpg");
+        background-repeat: no-repeat;
         padding: 4% 2% 2% 0%;
     }
 
@@ -101,7 +104,7 @@ h3#tit-2{
 
     }
 
-    #encabezado h3 {
+    #encabezado h4 {
         color: white;
          margin-top: 0%;
          vertical-align: bottom;
@@ -192,6 +195,8 @@ h3#tit-2{
         font-size: 1.5em;
     }
 
+    
+
 
 }
 
@@ -215,6 +220,45 @@ h3#tit-2{
         .label {
             font-size: 13px;
         }
+
+@media (max-width: 480px){
+    
+    
+
+     #filtro-search {
+        margin-left: 10px;
+        margin-top: 0px;
+        display: inline-block;
+        width: 100%;
+
+    }
+
+    #encabezado {
+        display: none;
+    }
+
+    #food-logo img {
+        width:200px;
+        margin-left: 100px;
+        padding-top: 20px;
+    }
+
+     #descripcion-site p {
+        margin-top: 40px;
+        margin-left: 15px;
+        width: 350px;
+        text-align: center;
+        font-family: 'Josefin Slab', serif;
+        font-size: 1.3em;
+    }
+
+
+    #logo {
+        display: none; 
+
+    }
+    
+    } 
 
 
 
