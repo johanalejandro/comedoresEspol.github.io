@@ -7,40 +7,40 @@
 body, html{
     width: 100%;
     height: 100%;
-}
+    }
 
 .main .row{
     padding: 0%;
     margin: 0%;
-}
+    }
 
 nav.sidebar.navbar{
     border-radius: 0px;
-}
+    }
 
 nav.sidebar, .main{
     transition: margin 200ms ease-out;
-}
+    }
 
 .main{
     padding: 0px 0px 0px 0px;
-}
+    }
 
 section{
     padding-left: 15px; 
-}
+    }
 
 h3#tit-comd-cerc{
     margin-left: 15px;
     font-size: 3em;
-}
+    }
 
 h3#tit-2{
     margin-left: 15px;
     font-size: 3em;
     font-family: 'Josefin Slab', serif;
     font-weight: bold;
-}
+    }
 
 
 
@@ -134,8 +134,8 @@ h3#tit-2{
     }
 
     #facultad-comedores {
-        width:900px;
-
+        width: 100%;
+        padding: 15px;
     }
 
     .facultad-detalle {
@@ -194,43 +194,36 @@ h3#tit-2{
         font-family: 'Josefin Slab', serif;
         font-size: 1.5em;
     }
-
-    
-
-
 }
 
 /* css para grafico */
+.bar {
+    fill: #d60651;
+    }
 
+.axis {
+    font-size: 13px;
+    }
+        
 
- .bar {
-            fill: #d60651;
-        }
+.axis path, .axis line {
+    fill: none;
+    display: none;
+    }
         
-        .axis {
-            font-size: 13px;
-        }
-        
-        .axis path,
-        .axis line {
-            fill: none;
-            display: none;
-        }
-        
-        .label {
-            font-size: 13px;
-        }
+.label {
+    font-size: 13px;
+    }
 
 @media (max-width: 480px){
     
     
 
-     #filtro-search {
+    #filtro-search {
         margin-left: 10px;
         margin-top: 0px;
         display: inline-block;
         width: 100%;
-
     }
 
     #encabezado {
@@ -243,7 +236,7 @@ h3#tit-2{
         padding-top: 20px;
     }
 
-     #descripcion-site p {
+    #descripcion-site p {
         margin-top: 40px;
         margin-left: 15px;
         width: 350px;
@@ -258,8 +251,4 @@ h3#tit-2{
 
     }
     
-    } 
-
-
-
-
+} 
