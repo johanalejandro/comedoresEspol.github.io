@@ -1,0 +1,161 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Comedores - Espol</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/estilo.css" rel="stylesheet">
+		<link href="css/est-comed.css" rel="stylesheet">
+		<link href="galereya/css/jquery.galereya.css" rel="stylesheet"/>
+		<script
+		  src="https://code.jquery.com/jquery-2.2.4.min.js"
+		  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+		  crossorigin="anonymous"></script>
+		<script src="galereya/js/jquery.galereya.js"></script>
+   	    <script src="galereya/js/jquery.galereya.min.js"></script>
+   	    <!--
+   	    <script>
+	        $(function() {
+	            $('#galleryherepls').galereya();
+	        });
+
+	    </script> -->
+	    
+		
+	</head>
+	<body>
+		<nav class="navbar navbar-default sidebar">
+			<div id="franja"></div>
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<div id="food-logo" >
+						<a href="index.html"><img src="img/logo-v.png" alt="logo" width="90%" /></a>
+					</div>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1" >
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="comedoresFacultad.html">Comedores</a></li>
+						<li><a href="#">Menu del dia</a></li>
+						<li><a href="#">Mejores Platos</a></li>
+						<li><a href="#">Mejores Comedores</a></li>
+						<li><a href="comedores-cercanos.html">Comedores Cercanos</a></li>
+						<li><a href="about.html">About us</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="main">
+			<div id="encabezado">
+				<h1> Conoce tus opciones </h1>
+				<h3> COMEDORES DE LA ESPOL </h3>
+			</div>
+			<div id="gallery"></div>
+			
+            <!--
+			<div id="galleryherepls">
+        		<img src="gallery/photo-1.jpg"
+        	    alt="Title here"
+        	    title="Or here(more priority)"
+        	    data-desc="some description"
+        	    data-category="image category here"
+        	    data-fullsrc="gallery/photo-1.jpg" />        
+               
+		        <img src="gallery/photo-2.jpg"
+		            alt="Image"
+		            data-desc="Example"
+		            data-fullsrc="gallery/photo-2.jpg"
+		        />
+
+
+		        <img src="gallery/photo-3.jpg"
+		            alt="Image"
+		            data-desc="Example"
+		            data-fullsrc="gallery/photo-3.jpg"
+		        />
+
+		        <img src="gallery/photo-4.jpg"
+		            alt="Image"
+		            data-desc="Example"
+		            data-fullsrc="gallery/photo-4.jpg"
+		        />
+		        <img src="gallery/photo-5.jpeg"
+		            alt="Image"
+		            data-desc="Example"
+		            data-fullsrc="gallery/photo-5.jpeg"
+		        />
+		        <img src="gallery/photo-6.jpeg"
+		            alt="Image"
+		            data-desc="Example"
+		            data-fullsrc="imgs/photo-6.jpeg"
+		        />
+
+		        <img src="gallery/photo-7.jpg"
+        	    alt="Title here"
+        	    title="Or here(more priority)"
+        	    data-desc="some description"
+        	    data-category="image category here"
+        	    data-fullsrc="gallery/photo-7.jpg" />  
+		    </div> -->
+			<!--
+			<div id="gallery">
+
+				<a href="#">
+		        	<img src="gallery/photo-1.jpg"
+		            title="photo1 title">
+	    		</a>
+	   			<a href="#">
+	      			<img src="gallery/photo-2.jpg"
+	            alt="photo2 title">
+	    		</a>
+	    		<a href="#">
+	      		    <img src="gallery/photo-3.jpg"
+	            title="photo3 title">
+	            </a>
+	            <a href="#">
+	                <img src="gallery/photo-4.jpg"
+	            alt="photo4 title" data-pb-captionLink='Google website[www.google.com]'>
+	            </a>
+	            <a href="http://www.youtube.com/embed/W3OQgh_h4U4" rel="video">
+	                <img src="http://img.youtube.com/vi/W3OQgh_h4U4/0.jpg" title="PEOPLE ARE AWESOME 2013 FULL HD ">
+	    		</a>
+			</div>
+			
+
+			<script>
+		    // applying photobox on a `gallery` element which has lots of thumbnails links.
+		    // Passing options object as well:
+		    //-----------------------------------------------
+		    $('#gallery').photobox('a',{ time:0 });
+
+		    // using a callback and a fancier selector
+		    //----------------------------------------------
+		    $('#gallery').photobox('li > a.family',{ time:0 }, callback);
+		    function callback(){
+		       console.log('image has been loaded');
+		    }
+
+		    // destroy the plugin on a certain gallery:
+		    //-----------------------------------------------
+		    $('#gallery').photobox('destroy');
+
+		    // re-initialize the photbox DOM (does what Document ready does)
+		    //-----------------------------------------------
+		    $('#gallery').photobox('prepareDOM');
+			</script>
+        
+		
+		-->
+		
+		<script src='photobox/jquery.photobox.js'></script>
+		
+	</body>
+</html>
