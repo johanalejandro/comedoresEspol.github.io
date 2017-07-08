@@ -29,11 +29,12 @@
 				</div>
 				<div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li><a href="#">Comedores</a></li>
-						<li><a href="#">Menu del dia</a></li>
-						<li><a href="#">Mejores Platos</a></li>
-						<li><a href="#">Mejores Comedores</a></li>
-						<li><a href="#">Comedores Cercanos</a></li>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="photoGallery.html">Galeria de Platillos</a></li>
+						<li><a href="comedores-cercanos.html">Comedores Cercanos</a></li>
+						<li><a href="comedoresFacultad.html">Comedores por Facultad</a></li>
+						<li><a href="mejores-platos.html">Mejores Platos</a></li>
+						<li><a href="about.html">Nosotros</a></li>
 					</ul>
 				</div>
 			</div>
@@ -46,13 +47,29 @@
 			</div>
 			<div id="filtro-search">
 				<p id="buscar"><span class="glyphicon glyphicon-search" ></span> Buscar por: </p>  
-				<button type="button" class="btn busqueda"> Comedor </button>
-				<button type="button" class="btn busqueda">Ubicacion</button>
-				<button type="button" class="btn busqueda"> Rating </button>
-				<button type="button" class="btn busqueda">Valor nutricional </button>  
-				
-
+				<button type="button" onclick="filtro('precio','des')" class="btn busqueda"> Precio </button>
+				<button type="button" onclick="filtro('distancia','des')" class="btn busqueda">Ubicacion</button>
+				<button type="button" onclick="filtro('disponible','asc')" class="btn busqueda"> Disponibles </button>
+				<button type="button" onclick="filtro('vnutricional','asc')" class="btn busqueda">Valor nutricional </button>  
+			</div>
+			<div class="platillos-del-dia">
+				<div class="platillo" precio="2.5" vnutricional="500" disponible="si" distancia="200">
+					<div class="desc">
+						<h4>Comida para humanos</h4>
+						<ul>
+							<li><span class="glyphicon glyphicon-apple"></span> $ 2.5</li>
+							<li><span class="glyphicon glyphicon-map-marker"></span> 200 mts</li>
+							<li><span class="glyphicon glyphicon-ok"></span> Aun disponible</li> 
+						</ul>
+					</div>
+					<img src="gallery/photo-1.jpg" alt="logo" width="200" />
+				</div>
 			</div>
 		</div>
+		<!-- JAVASCRIPT -->
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/index.js"></script>
 	</body>
 </html>

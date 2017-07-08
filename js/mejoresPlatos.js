@@ -1,7 +1,10 @@
-console.log("funciono");
+$( document ).ready(function() {
+   arreglo();
+});
+
 
 var data = [{
-                "name": "Arooz con Pollo",
+                "name": "Arroz con Pollo",
                 "value": 20,
                 "image": "../img/logo.png"
         },
@@ -39,7 +42,7 @@ var margin = {
             left: 200
  };
 
-  var width = 960 - margin.left - margin.right,
+  var width = 1050 - margin.left - margin.right,
             height = 500 - margin.top - margin.bottom;
 
 
@@ -100,6 +103,18 @@ bars.append("text")
             .text(function (d) {
                 return d.value;
             });
+
+
+
+function arreglo(){
+    var barras = $(".bar")
+    var i;
+    var color = ["#96ceb4","#ff6f69","#ffcc5c","#ffeead","#88d8b0"]
+    for(i=0; i<barras.length; i++){
+        barras[i].style.fill = color[i];
+    }
+}
+
 
 
 

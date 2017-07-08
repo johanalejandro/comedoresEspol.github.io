@@ -1,3 +1,4 @@
+/*FUENTES*/
 @import url('https://fonts.googleapis.com/css?family=News+Cycle');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab:600i');
@@ -14,39 +15,9 @@ body, html{
     margin: 0%;
     }
 
-nav.sidebar.navbar{
-    border-radius: 0px;
-    }
-
-nav.sidebar, .main{
-    transition: margin 200ms ease-out;
-    }
-
-.main{
-    padding: 0px 0px 0px 0px;
-    }
-
-section{
-    padding-left: 15px; 
-    }
-
-h3#tit-comd-cerc{
-    margin-left: 15px;
-    font-size: 3em;
-    }
-
-h3#tit-2{
-    margin-left: 15px;
-    font-size: 3em;
-    font-family: 'Josefin Slab', serif;
-    font-weight: bold;
-    }
-
-
-
+/*ESTILO PARA COMPUTADORAS*/
 @media (min-width: 1300px){
     .main{
-
         width: calc(100% - 200px);
         margin-left: 200px;
         height: 100%;
@@ -93,44 +64,39 @@ h3#tit-2{
         width: 100%;
         background: url("../img/header.jpg");
         background-repeat: no-repeat;
+        background-size: 100%;
         padding: 4% 2% 2% 0%;
     }
 
     #encabezado h1 {
         color: white;
-         margin-top: 0%;
-         vertical-align: bottom;
-         font-family: 'Pacifico'
-
+        margin-top: 0%;
+        vertical-align: bottom;
+        font-family: 'Pacifico';
+        font-size: 3.5em;
     }
 
-    #encabezado h4 {
+    #encabezado h3 {
         color: white;
-         margin-top: 0%;
-         vertical-align: bottom;
+        margin-top: 20px;
+        vertical-align: bottom;
     }    
 
     #filtro-search {
         display: inline-block;
-        width: 55%; 
-
+        width: 55%;
+        margin: 5px 5px 5px 15px;
     }
 
     #buscar {
         width:15%;
         margin:0%;
         display: inline-block;
-
     }
 
     #filtro-search {
         margin-top: 10px;
         display: inline-block;
-
-    }
-
-    #filtro-search : first-child {
-        float:left;
     }
 
     #facultad-comedores {
@@ -149,11 +115,9 @@ h3#tit-2{
         margin-bottom: 25px;
         margin-top: 25px;
         border-color: #d60651;
-    
-
     }
 
-     .facultad-detalle a{
+    .facultad-detalle a{
         margin-left: 85px;
         padding-top:  10px;
 
@@ -163,12 +127,10 @@ h3#tit-2{
         width: 200px;
         height: 60px;
         margin-left: 15px;
-
     }
 
     .facultad-detalle p {
         padding-left: 40px;
-
     }
 
     .facultad-detalle h4 {
@@ -181,9 +143,6 @@ h3#tit-2{
     #about-us img{
         margin-left: 450px;
         margin-top: 40px;
-        
-
-
     }
 
     #descripcion-site p {
@@ -194,7 +153,105 @@ h3#tit-2{
         font-family: 'Josefin Slab', serif;
         font-size: 1.5em;
     }
+
+    /*index - platillos*/
+
+    .platillos-del-dia{
+        margin: 20px;
+        display: flex;
+        flex-flow: row wrap;
+
+    }
+
+    .platillo{
+        margin: 10px;
+        display: inline-block;
+        position: relative;
+    }
+
+    .desc{
+        display: none;
+    }
+
+    .platillo:hover .desc{
+        display: block;
+        position: absolute;
+        background-color: rgba(85,48,55,0.8);
+        width: 250px;
+        height: 100%;
+        border-radius: 5px;
+        color: white;
+        padding: 8%;
+    }
+
+    .platillo:hover .desc ul{
+        list-style: none;
+        font-size: 16px;
+    }
+
+    .platillo img{
+        width: 250px;
+        height: auto;
+        border-radius: 5px;
+        
+    }
+
+
 }
+
+/*ESTILO PARA TELEFONOS*/
+@media (max-width: 700px){
+    
+    #filtro-search {
+        margin-left: 10px;
+        margin-top: 0px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .navbar-toggle{
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    #encabezado {
+        display: none;
+    }
+
+    #food-logo{
+        width: 70%;
+        padding-bottom: 20px; 
+        display: inline-block;
+    }
+
+    .btn{
+        margin-bottom: 3px;
+    }
+
+    #food-logo img {
+        width: 200px;
+        margin-left: 10%;
+        padding-top: 20px;
+        display: inline-block;
+    }
+
+    #descripcion-site p {
+        margin-top: 40px;
+        margin-left: 15px;
+        width: 350px;
+        text-align: center;
+        font-family: 'Josefin Slab', serif;
+        font-size: 1.3em;
+    }
+
+
+    #logo {
+        display: none; 
+    }
+    
+} 
+
+/*GENERALES*/
 
 /* css para grafico */
 .bar {
@@ -215,40 +272,37 @@ h3#tit-2{
     font-size: 13px;
     }
 
-@media (max-width: 480px){
-    
-    
+g text{
+    font-weight: bold;
+    font-size: 15px;
+}
 
-    #filtro-search {
-        margin-left: 10px;
-        margin-top: 0px;
-        display: inline-block;
-        width: 100%;
+
+/*otros*/
+nav.sidebar.navbar{
+    border-radius: 0px;
     }
 
-    #encabezado {
-        display: none;
+nav.sidebar, .main{
+    transition: margin 200ms ease-out;
     }
 
-    #food-logo img {
-        width:200px;
-        margin-left: 100px;
-        padding-top: 20px;
+.main{
+    padding: 0px 0px 0px 0px;
     }
 
-    #descripcion-site p {
-        margin-top: 40px;
-        margin-left: 15px;
-        width: 350px;
-        text-align: center;
-        font-family: 'Josefin Slab', serif;
-        font-size: 1.3em;
+section{
+    padding-left: 15px; 
     }
 
-
-    #logo {
-        display: none; 
-
+h3#tit-comd-cerc{
+    margin-left: 15px;
+    font-size: 3em;
     }
-    
-} 
+
+h3#tit-2{
+    margin-left: 15px;
+    font-size: 3em;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+    }
