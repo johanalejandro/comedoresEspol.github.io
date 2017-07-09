@@ -395,6 +395,28 @@ body, html{
         display: inline-block;
         vertical-align: middle;
     }
+
+    /*about*/
+    div#prog{
+        text-align: center;
+        width: 30%;
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+
+    div#prog img{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    div#prog h3{
+        font-size: 1em;
+    }
+
+
+
+
 } 
 
 /*TABLETS*/
@@ -464,6 +486,20 @@ and (min-width : 700px){
         font-family: 'Josefin Slab', serif;
         font-size: 1.5em;
     }
+
+    div#prog{
+        text-align: center;
+        width: 30%;
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+
+    div#prog img{
+        margin: 0px;
+        padding: 0px;
+    }
+
 
     /*NEO PARA TABLETS*/
     .info-comedor h4{
