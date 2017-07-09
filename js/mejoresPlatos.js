@@ -63,6 +63,7 @@ var y = d3.scale.ordinal()
             .domain(data.map(function (d) {
                 return d.name;
             }));
+
 var yAxis = d3.svg.axis()
             .scale(y)
             //no tick marks
@@ -72,6 +73,7 @@ var yAxis = d3.svg.axis()
  var gy = svg.append("g")
             .attr("class", "y axis")
             .call(yAxis)
+            
  var bars = svg.selectAll(".bar")
             .data(data)
             .enter()

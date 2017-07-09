@@ -7,3 +7,22 @@
 	font-family: 'Josefin Slab', serif;
 	font-weight: bold;
 }
+
+@media (max-width: 700px){
+	
+	.thumbnail img{
+		width: 50%;
+		margin-left: 10px;
+	}
+
+	.caption{
+		width: 60%;
+		display: inline-block;
+	}
+
+	.botoninfo{
+		width: 30%;
+		display: inline-block;
+	}
+
+}
