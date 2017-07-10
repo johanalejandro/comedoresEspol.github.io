@@ -257,7 +257,11 @@ body, html{
     .plato-neo div.col-md-6{
         padding-left: 0px;
     }
-}
+
+    #imagen-comida {
+        padding-top:60px;  
+        border-style: dotted;
+    }
 
 /*ESTILO PARA TELEFONOS*/
 @media only screen and (max-width: 700px){

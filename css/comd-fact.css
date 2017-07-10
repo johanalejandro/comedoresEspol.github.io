@@ -6,6 +6,7 @@
 .caption h3{
 	font-family: 'Josefin Slab', serif;
 	font-weight: bold;
+	color:#d60651;
 }
 
 @media (max-width: 700px){
