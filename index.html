@@ -1,3 +1,4 @@
+<!Doctype html>
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -7,8 +8,6 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/estilo.css" rel="stylesheet">
-		<link href="js/bootstrap.js" rel="javascript">
-		<link href="js/bootstrap.min.js" rel="javascript">
 	</head>
 	<body>
 		<!-- SIDE BAR BASE -->
@@ -17,7 +16,7 @@
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<div id="food-logo" >
-						<a href="index.html"><img src="img/logo-v.png" alt="logo" width="90%" /></a>
+						<a href="index.html"><img src="img/logo-v.png" alt="logo" width="150" /></a>
 					</div>
 					
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1" >
@@ -48,13 +47,13 @@
 			</div>
 			<div id="filtro-search">
 				<p id="buscar"><span class="glyphicon glyphicon-search" ></span> Buscar por: </p>  
-				<button type="button" onclick="filtro('precio','des')" class="btn busqueda"> Precio </button>
-				<button type="button" onclick="filtro('distancia','des')" class="btn busqueda">Ubicacion</button>
-				<button type="button" onclick="filtro('disponible','asc')" class="btn busqueda"> Disponibles </button>
-				<button type="button" onclick="filtro('vnutricional','asc')" class="btn busqueda">Valor nutricional </button>  
+				<button type="button" onclick="filtro('data-precio','des')" class="btn busqueda"> Precio </button>
+				<button type="button" onclick="filtro('data-distancia','des')" class="btn busqueda">Ubicacion</button>
+				<button type="button" onclick="filtro('data-disponible','asc')" class="btn busqueda"> Disponibles </button>
+				<button type="button" onclick="filtro('data-vnutricional','asc')" class="btn busqueda">Valor nutricional </button>  
 			</div>
 			<div class="platillos-del-dia">
-				<div class="platillo" precio="2.5" vnutricional="500" disponible="si" distancia="200">
+				<div class="platillo" data-precio="2.5" data-vnutricional="500" data-disponible="si" data-distancia="200">
 					<div class="desc">
 						<a href="comedor-neo.html"><h4>Arroz con Pollo</h4></a>
 						<ul>
@@ -65,7 +64,7 @@
 					</div>
 					<img src="gallery/photo-1.jpg" alt="logo" width="200" />
 				</div>
-				<div class="platillo" precio="1.5" vnutricional="200" disponible="no" distancia="800">
+				<div class="platillo" data-precio="1.5" data-vnutricional="200" data-disponible="no" data-distancia="800">
 					<div class="desc">
 						<a href="comedor-neo.html"><h4>Bandeja Paisa</h4></a>
 						<ul>

@@ -58,7 +58,7 @@
 		"imagen":"gallery/photo-7.jpg",
 		"precio":"2.9",
 		"likes":"30",
-		"disponible":"si",
+		"disponible":"no",
 		"distancia":"800",
 		"nutricion":"100"
 	},
@@ -67,7 +67,7 @@
 		"imagen":"gallery/photo-8.jpg",
 		"precio":"3.5",
 		"likes":"30",
-		"disponible":"si",
+		"disponible":"no",
 		"distancia":"100",
 		"nutricion":"500"
 	},
@@ -76,7 +76,7 @@
 		"imagen":"gallery/photo-9.jpg",
 		"precio":"3.5",
 		"likes":"30",
-		"disponible":"si",
+		"disponible":"no",
 		"distancia":"500",
 		"nutricion":"800"
 	}
