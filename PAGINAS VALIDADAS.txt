@@ -1,22 +1,17 @@
 Validacion de paginas
 
-estados
-x no validada
-+ Validada
-- Se hicieron cambios en el html
-* no aplica
 
-PAGINAS				estado
+PAGINAS				quien valida
 
-index				x
-about				x
-chaulafanPollo			x
-comedor-cocacola		x
-comedores-cercanos		x
-comedoresFacultad		x
-comedor-neo			x
-login-comd			x
-mejores-platos			x
-photoGallery			x
-sesion				x
-sidebar-base			*
+about					J
+chaulafanpollo				J
+comedor-cocacola			J
+comedores-cercanos			L
+comedoresFacultad			L
+comedor-neo				L
+index					L
+login-comd				J
+mejores-platos				L
+photGallery				J
+sesion-comedor				L
+time					J

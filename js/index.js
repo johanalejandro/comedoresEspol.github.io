@@ -23,7 +23,7 @@ function filtro(criterio, orden){
 		}
 	}
 
-	if(criterio == "disponible"){
+	if(criterio == "data-disponible"){
 		for (i = 0; i < platillos.length; i++) { 
 			if(platillos[i].getAttribute(criterio) =="no"){
 				platillos[i].style.display = "none";
@@ -47,10 +47,10 @@ function cargarPlatillos() {
 			var prec = $('<li></li>');
 			var like = $('<li></li>');
 			var disp = $('<li></li>');
-			div.attr("precio",val["precio"]);
-			div.attr("vNutricional",val["nutricion"]);
-			div.attr("disponible",val["disponible"]);
-			div.attr("distancia",val["distancia"]);
+			div.attr("data-precio",val["precio"]);
+			div.attr("data-vNutricional",val["nutricion"]);
+			div.attr("data-disponible",val["disponible"]);
+			div.attr("data-distancia",val["distancia"]);
 			div.attr("class","platillo");
 			desc.attr("class","desc");
 			imag.attr("src",val["imagen"]);
