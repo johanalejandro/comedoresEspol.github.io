@@ -630,3 +630,17 @@ g text{
     font-size: 15px;
 }
 
+
+/*inicio de sesion*/
+
+.jumbotron{
+    background-color: #18baa3;
+    color: white;
+}
+
+.jumbotron h1{
+    font-family: 'Pacifico';
+}
+
+
+
