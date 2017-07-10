@@ -20,10 +20,16 @@ function iniciarMapa() {
 	getLocation();
 }
 
-function selecComed(lat, long){
+function selecComed(lat, long, nombre){
 	marker.setMap(null);
 	let coord=new google.maps.LatLng(lat,long);
 	marker = new google.maps.Marker({position: coord});
+	var infowindow = new google.maps.InfoWindow({
+          content: nombre
+        });
+	marker.addListener('click', function() {
+          infowindow.open(map, marker);
+        });
 	marker.setMap(map);
 	map.setCenter(coord);
 }
